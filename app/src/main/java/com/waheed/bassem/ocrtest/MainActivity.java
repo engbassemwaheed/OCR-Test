@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             public void onError(int errorCode) {
                 Log.d(TAG, "onError: errorCode = " + errorCode);
                 String temp = "error code = " + errorCode;
-//                        resultTextView.setText(temp);
+                resultTextView.setText(temp);
                 materialButton.setVisibility(View.VISIBLE);
             }
 
